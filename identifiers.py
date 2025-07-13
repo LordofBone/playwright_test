@@ -1,10 +1,10 @@
 from dataclasses import dataclass
 
+
 # Probably wrong use of dataclasses here, but it works for the time, being; with more time would move this to conftest as a nice fixture
 # Mainly did this to have a clean location for all locators
 @dataclass
 class Identifiers:
-
     @dataclass
     class URL:
         base: str = "https://qa-practice.netlify.app/bugs-form"
